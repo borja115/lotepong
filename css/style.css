@@ -1,0 +1,92 @@
+head {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  color: white;
+  font-size: 30px;
+  align-items: flex-start;
+}
+
+canvas {
+  border-radius: 10px;
+  background: #ff9800;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.button1 {
+  background-image: url(../images/appstore.png);
+  display: block;
+  width: 229px;
+  height: 78px;
+  border-right-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button2 {
+  background-image: url(../images/android.png);
+  display: block;
+  width: 229px;
+  height: 78px;
+  border-right-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body {
+  background-image: url(../images/bombo2.jpg);
+  background-size: cover;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 55px;
+}
+div {
+  padding: 0 60px;
+  display: flex;
+  align-content: flex-end;
+}
+
+video {
+  z-index: 100;
+  width: 710px;
+  height: 420px;
+  margin-top: 408px;
+}
+
+.delimiter {
+  
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container {
+  position: absolute;
+}
+
+.block{
+    display: block;
+}
+
+.image {
+    top: 50%;
+    left: 50%;
+    -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
